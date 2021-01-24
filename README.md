@@ -9,6 +9,7 @@ navigate to the url http://nevinsbattleship.azurewebsites.net/
 
 # Only battleship(one type of ship) is configured via constructor dependency injection in application start
 Battleship has 4 squares and here it is confgured from A1 to A4 
+highlighted in green sqaure 
 
 ![image](https://user-images.githubusercontent.com/11384742/105646430-02fb8000-5ef4-11eb-9b12-cf6379df2831.png)
 
