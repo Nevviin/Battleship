@@ -21,5 +21,10 @@ result
 
 ![image](https://user-images.githubusercontent.com/11384742/105646596-d4ca7000-5ef4-11eb-90f1-38b957d5917c.png)
 
-the result is a miss , since batleshi has only 4 sqaures and here we have confugired from A1 to A4 
+the result is a miss , since battleship has only 4 sqaures and here we have confugired from A1 to A4 
+
+IF we try A4 result is hit as below 
+
+
+![image](https://user-images.githubusercontent.com/11384742/105646661-2f63cc00-5ef5-11eb-90ff-ea29618665d7.png)
 
