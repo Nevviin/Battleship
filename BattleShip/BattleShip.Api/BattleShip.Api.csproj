@@ -14,12 +14,18 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Serilog.AspNetCore" Version="3.4.0" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.0" />
+    <None Remove="Logs\.keep" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Logs\" />
+    <Content Include="Logs\.keep">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Serilog.AspNetCore" Version="3.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.0" />
   </ItemGroup>
 
 
