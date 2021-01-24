@@ -14,11 +14,15 @@ namespace BattleShip.Api
         /// <returns>int []{0,0}</returns>
         public static int [] GetGridPositions(string position)
         {
-            var cordinateArray = position.ToArray().Select(x => x.ToString()).ToArray();
-            var coordinateY = Constants.coordinates[cordinateArray[0].ToUpper()];
+            var coordinateArray = position.ToArray().Select(x => x.ToString()).ToArray();
+            var coordinateY = Constants.coordinates[coordinateArray[0].ToUpper()];
             
-            var coordinateX = Convert.ToInt32(cordinateArray[1]) - 1;
+            var coordinateX = Convert.ToInt32(coordinateArray[1]) - 1;
 
+            if (coordinateX < 0 || coordinateArray.Length > 2)
+            {
+                throw new Exception("invalid positions");
+            }
             return new int[] { coordinateX, coordinateY };
         }
     }

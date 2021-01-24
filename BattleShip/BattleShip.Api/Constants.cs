@@ -19,6 +19,8 @@ namespace BattleShip.Api
 
 
         public static string BattleShip = "BattleShip";
-       
+        public static string Hit = "hit";
+        public static string Miss = "miss";
+
     }
 }

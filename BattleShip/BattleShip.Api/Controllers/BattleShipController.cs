@@ -42,7 +42,7 @@ namespace BattleShip.Api.Controllers
             {
                var result =  _board.Attack(position);
 
-                return Ok(result?"hit":"miss");
+                return Ok(result?Constants.Hit:Constants.Miss);
 
             }catch (Exception ex)
             {
