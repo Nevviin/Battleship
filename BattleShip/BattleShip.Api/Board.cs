@@ -33,10 +33,7 @@ namespace BattleShip.Api
         public bool Attack(string position)
         {
             var coordinateArray = Helper.GetGridPositions(position);
-            //if (coordinateArray[0] < 0 || coordinateArray.Length>2)
-            //{
-            //    throw new Exception("invalid positions");
-            //}
+      
             var target = _oceanGrid[coordinateArray[0], coordinateArray[1]];
             if (string.IsNullOrEmpty(target))
             {
