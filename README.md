@@ -8,5 +8,5 @@ battle ship api to create board, add a battle ship and take an attack and report
 # Only battleship is configured via constructor dependency injection in application start
 Battleship has 4 squares and here it confgured from A1 to A4 
 
-![image](https://user-images.githubusercontent.com/11384742/105646377-c7f94c80-5ef3-11eb-808e-fca977dacdd0.png)
+![image](https://user-images.githubusercontent.com/11384742/105646430-02fb8000-5ef4-11eb-9b12-cf6379df2831.png)
 
