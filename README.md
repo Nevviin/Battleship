@@ -10,3 +10,16 @@ Battleship has 4 squares and here it confgured from A1 to A4
 
 ![image](https://user-images.githubusercontent.com/11384742/105646430-02fb8000-5ef4-11eb-9b12-cf6379df2831.png)
 
+# To attack or take a shot 
+navigate to the url http://nevinsbattleship.azurewebsites.net/
+Click on the "Try it out" button and enter the coordiates here for eg its entered as A6
+
+![image](https://user-images.githubusercontent.com/11384742/105646489-5a99eb80-5ef4-11eb-9255-c2533293e91c.png)
+
+
+result 
+
+![image](https://user-images.githubusercontent.com/11384742/105646596-d4ca7000-5ef4-11eb-90f1-38b957d5917c.png)
+
+the result is a miss , since batleshi has only 4 sqaures and here we have confugired from A1 to A4 
+
