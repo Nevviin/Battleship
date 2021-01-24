@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleShip.Api", "BattleShip.Api\BattleShip.Api.csproj", "{9C0CD39C-E285-43F2-84F6-2F31E338D478}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C0CD39C-E285-43F2-84F6-2F31E338D478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C0CD39C-E285-43F2-84F6-2F31E338D478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C0CD39C-E285-43F2-84F6-2F31E338D478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C0CD39C-E285-43F2-84F6-2F31E338D478}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3ADA88BD-D8D8-4488-B4CB-463855E00D89}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BattleShip.Api</name>
+    </assembly>
+    <members>
+        <member name="T:BattleShip.Api.Controllers.BattleShipController">
+            <summary>
+            BattleShipController
+            </summary>
+        </member>
+        <member name="M:BattleShip.Api.Controllers.BattleShipController.#ctor(BattleShip.Api.IBoard,Microsoft.Extensions.Logging.ILogger{BattleShip.Api.Controllers.BattleShipController})">
+            <summary>
+            
+            </summary>
+            <param name="board"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:BattleShip.Api.Controllers.BattleShipController.Attack(System.String)">
+            <summary>
+            Position format is like A6
+            </summary>
+            <param name="position"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BattleShip.Api.Controllers.BattleShipController.healthcheck">
+            <summary>
+            To check the api is up and running 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BattleShip.Api.Helper.GetGridPositions(System.String)">
+            <summary>
+            if we pass string , will return a integer array 0th index represent X and 1st Index as Y  that can represent the array positions 
+            </summary>
+            <param name="position">A2</param>
+            <returns>int []{0,0}</returns>
+        </member>
+    </members>
+</doc>
