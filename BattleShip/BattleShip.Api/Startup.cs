@@ -33,12 +33,7 @@ namespace BattleShip.Api
         {
             services.AddScoped<IBoard, Board>();
             services.AddControllers();
-            //services.AddSwaggerGen(c =>
-            //{
-            //    c.SwaggerDoc("v1", new OpenApiInfo { Title = "BattleShip.Api", Version = "v1" });
-            //});
-
-
+       
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo
@@ -70,7 +65,6 @@ namespace BattleShip.Api
             }
             app.UseSwagger();
 
-       
             app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "BattleShip.Api v1"));
             app.UseRouting();
 
